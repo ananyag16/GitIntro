@@ -5,8 +5,8 @@ def factorial(number_for_factorial):
 
 
 def gcd(number_1, number_2):
-    # Add code here
-    return #gcd value
+    num3 = number_1 if number_1 > number_2 else number_2
+    return num3
 
 
 def is_palindrome(string_to_check):
